@@ -1,0 +1,55 @@
+.App{
+    font-family: Merriweather;
+  }
+#vanta{
+    position: absolute;
+    display: block;
+    min-width: 100%;
+    min-height: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    z-index: -1;
+}
+
+
+/*header*/
+#header{
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}
+#header .title{
+  margin:0;
+  color: navy;
+  padding: 0 1rem;
+}
+#header .auth{
+  height: 100%;
+  display:flex;
+}
+#header .auth button{
+  padding: 0 1rem;
+  background-color: rgb(179, 171, 171);
+  color:navy;
+  font-size: 1.2rem;
+  border: 0;
+
+}
+#header .auth button:hover{
+  background-color: white;
+}
+.btn-close{
+  background-color: #141B41;
+  color:white;
+}
+.btn-close:hover{
+  color:white;
+}
+.homeCard {
+  background-color: rgba(0, 0, 0, 0);
+  color: #ffffff;
+}
